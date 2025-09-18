@@ -3,10 +3,12 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Tradable hummingbear = new Hatchimal("Hummingbear", 8);
+        Tradable hummingbear = new Hatchimal("Hummingbear", 8); // test
         Tradable draggle = new Hatchimal("Draggle", 12);
         Tradable riverPebble = new Pebble("River Stone", 10);
         Tradable granitePebble = new Pebble("Granite", 2);
+        // The type created in the code snippet above are in an abstract class called Tradable, and there are two
+        // subclasses in the class, Hatchimal and Pebble.
 
         System.out.println(hummingbear);
         System.out.println(draggle);
